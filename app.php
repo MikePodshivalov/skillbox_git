@@ -5,6 +5,6 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 use Symfony\Component\Console\Application;
 
 $app = new Application();
-$app->add(new \App\QuestionToUser());
+$app->add(new QuestionToUser());
 $app->add(new SayHello());
 $app->run();
